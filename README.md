@@ -1,3 +1,5 @@
+This project is inspired by [AmlSim](https://github.com/IBM/AMLSim)
+
 Now, you can run some algorithms (such like zora lcd, EdMot...) using the simulated data. 
 
 Try main.ipynb ~~~
