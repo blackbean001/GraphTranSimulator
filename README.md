@@ -26,6 +26,6 @@ One can add new patterns by writing codes in the corresponding locations (genera
 To generate a new simulation graph, one can first change the parameters in ./paramFiles, then run main.py.
 The result graph looks like the following:
 ![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/outputgraph.png)
-![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/normalPatterns.png)
-![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/alertPatterns.png)
+![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/normalpatterns.png)
+![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/alertpatterns.png)
 
