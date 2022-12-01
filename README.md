@@ -17,8 +17,8 @@ A simulator to generate transaction graph based on pre-defined degree distributi
 In the current version, the normal patterns include: fan\_in, fan\_out, forward, mutual, single, periodical; the alert patterns include: fan\_in, fan_out, random, cycle, bipartite, stack\_bipartite, gether_scatter and scatter\_gether.
 One can add new patterns by writing codes in the corresponding locations (generator.py for alert patterns and nominator.py for normal patterns).
 
-![image](https://git.creditx.com/lisong/graphtranssimulator/blob/master/pics/normalPatterns.png)
-![image](https://git.creditx.com/lisong/graphtranssimulator/blob/master/pics/alertPatterns.png)
+![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/normalPatterns.png)
+![image](https://github.com/blackbean001/GraphTranSimulator/blob/main/pics/alertPatterns.png)
 
 # generate new graph
 To generate a new simulation graph, one can first change the parameters in ./paramFiles, then run main.py.
