@@ -1,0 +1,64 @@
+{
+	"project_root": "C://Users//Administrator.DESKTOP-9T4A4SV//Dropbox//大湾区研究院工作文件夹//算法测试//GraphTranSimulator",
+	"general": {
+		"simulation_name": "First_graph",
+		"simulation_steps": 1000,
+		"simulation_date": "20220319",
+                "random_seed": 20,
+                "margin_ratio":0.1,
+		"failure_thre": 1000,
+		"normal_types": {
+			"fan_out": 1,
+			"fan_in": 2,
+			"forward": 3,
+			"single": 4,
+			"mutual": 5,
+			"periodical": 6
+		},
+		"alert_types": {
+			"fan_out": 1,
+			"fan_in": 2,
+			"cycle": 3,
+			"bipartite": 4,
+			"stack": 5,
+			"scatter_gather": 7,
+			"gather_scatter": 8,
+                        "random": 9
+		}
+	},
+	"input_files": {
+		"directory": "paramFiles/FirstTry",
+		"degree": "degree.csv",
+		"accounts": "accounts.csv",
+		"is_aggregated_accounts": true,
+		"alert_patterns": "alertPatterns.csv",
+		"normal_patterns": "normalPatterns.csv",
+		"region_map": "region.json"
+	},
+        "output_files": {
+                "directory": "output/FirstTry",
+                "acc_file": "accounts.csv",
+                "alert_members": "alert_members.csv",
+                "normal_models": "normal_members.csv",
+                "trans_file": "transaction.csv"
+        },
+	"graph_generator": {
+		"hub_degree_threshold": 20
+	},
+	"default": {
+		"count": 100,
+		"bank_id": "default",
+		"default_model": 1,
+		"start_day": 0,
+		"end_day": 60,
+		"start_range": 15,
+		"end_range": 15,
+		"region": 0,
+		"business": 0,
+		"min_balance": 50000,
+		"max_balance": 100000,
+		"min_amount": 100,
+		"max_amount": 1000,
+                "is_sar":"True"
+	}
+}

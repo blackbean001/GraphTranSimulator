@@ -1,0 +1,7 @@
+count,min_balance,max_balance,start_day,start_range,end_day,end_range,region,business,bank_id
+200,50000,100000,0,5,60,5,US,I,bank
+200,50000,100000,0,5,60,5,US,I,bank
+200,50000,100000,0,5,60,5,US,I,bank
+200,50000,100000,0,5,60,5,US,I,bank
+200,50000,100000,0,5,60,5,US,I,bank
+446,50000,100000,0,5,60,5,US,I,bank
